@@ -74,7 +74,7 @@ const heroStats = document.querySelector('.hero-stats');
 if (heroStats) statsObserver.observe(heroStats);
 
 // ── Ticker ─────────────────────────────────────────────────────────
-const tickerSpan = document.querySelector('.ticker-track span');
+const tickerSpan = document.querySelector('.ticker-items');
 if (tickerSpan) {
   const clone = tickerSpan.cloneNode(true);
   tickerSpan.parentElement.appendChild(clone);
